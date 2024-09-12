@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter-Bold"; /* Matches tailwind.config.js */
+  src: url("/src/assets/fonts/static/Inter-Bold.ttf") format("truetype");
+  font-weight: 800; /* Accurate bold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter-SemiBold"; /* Matches tailwind.config.js */
+  src: url("/src/assets/fonts/static/young-serif/Inter-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600; /* Accurate semi-bold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter-Regular"; /* Matches tailwind.config.js */
+  src: url("/src/assets/fonts/static/young-serif/Inter-Regular.ttf")
+    format("truetype");
+  font-weight: 100; /* Regular weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter-VariableFont"; /* Matches tailwind.config.js */
+  src: url("/src/assets/fonts/Inter-VariableFont_slnt,wght.ttf")
+    format("truetype");
+  font-weight: 100 900; /* Variable font can scale between weights */
+  font-style: normal;
+}
