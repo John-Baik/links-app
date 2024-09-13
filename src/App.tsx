@@ -9,9 +9,9 @@ import ProfileName from "./components/ProfileHeader/ProfileName";
 import ProfileImage from "./components/ProfileImage/ProfileImage";
 import ProfileImageContainer from "./components/ProfileImage/ProfileImageContainer";
 
-function App() {
+export default function App() {
   return (
-    <div className="w-full h-full items-center flex justify-center py-20 px-8">
+    <div className="w-full h-full items-center flex justify-center py-20 px-0 xs:px-8">
       <CardContainer>
         <ProfileImageContainer>
           <ProfileImage src="src/assets/images/avatar-jessica.jpeg" />
@@ -34,5 +34,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
